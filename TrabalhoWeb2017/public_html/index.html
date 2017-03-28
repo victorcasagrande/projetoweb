@@ -1,23 +1,64 @@
-<html dir="ltr"><head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Trabalho WEB">
-        <meta name="author" content="Victor Hugo Mira Casagrande">
-        <meta name="author" content="Cleverson">
-        <meta title="Trabalho WEB">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        
-    </head>
 
-    <body>
-        <div class="menucores">
-            <div class="menuorange"></div>
-            <div class="menugreen"></div>
-            <div class="menublue"></div>
-            <div class="menured"></div>
-            teste
-        </div>
-    
-    </body>    
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="http://criancasegura.org.br/wp-content/themes/crianca-segura/img/favicon.ico" />
         
-    
+
+
+</head>
+  <body>
+    <div class="container"> <!-- INICIO Conteiner da pagina -->
+        <div class="container header"> <!-- INICIO Conteiner da do Header -->
+          <div class="container logo"> <!-- INICIO Conteiner da do que controla o Logo -->
+              <div class="box-logo">
+                <a href="#"><img src="img/logo.png"></a>
+              </div>  
+          </div> <!-- FIM do conteiner do Logo -->
+          <div class="container doacao"><!-- INICIO Conteiner da do que controla o DOACAO-->
+            <div class="botao-doacao"><!-- INICIO BOTÃO da do que controla o DOACAO-->
+                <a href="#">FAÇA SUA DOAÇÃO</a>
+            </div>
+          </div>
+          <div class="container buscar"><!-- INICIO BOTÃO da do que controla o BUSCA-->
+              <div class="linha buscar">
+                <div class="form buscar">
+                    <form role="search" action="" method="get" id="searchform">
+                      <input type="text" name="s" placeholder="BUSCA"/>
+                      <input type="submit" value="OK" alt="Pesquisar"/>
+                     </form>
+                </div>
+              </div>
+          </div>
+          <div class="container login">
+              <div class="container area-fechada">
+                  <div class="row">
+                      <div class="area-administrativa login-conteudo">
+                        Área administrativa
+                      </div>
+                  </div>
+                  <div class="form-login">
+                    <form name="loginform" id="loginform" action="#" method="post"> 
+                        <p class="login-username">
+                          <label for="user_login"></label>
+                          <input type="text" name="log" id="user_login" class="input" value="" size="20" placeholder="Login" />
+                        </p>
+                        <p class="login-password">
+                          <label for="user_pass"></label>
+                          <input type="password" name="pwd" id="user_pass" class="input" value="" size="20"  placeholder="Senha" />
+                        </p>
+                        <p class="login-submit">
+                          <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="OK" />
+                          <input type="hidden" name="redirect_to" value="http://criancasegura.org.br/" />
+                        </p>
+                    </form>  
+                  </div>
+              </div>
+            
+          </div>
+        </div><!--FIM Conteiner da do Header -->
+    </div><!-- FIM  do Conteiner da pagina -->
+  </body>
 </html>
