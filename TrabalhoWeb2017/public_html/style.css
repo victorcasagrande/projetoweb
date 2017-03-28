@@ -1,7 +1,31 @@
-.teste{
-    height: 100px;
-    width: 100%;
-    display:block;
-    background-color: blue;
+.menucores{
+    display: block;
+    float: left;
 }
 
+.menuorange {
+    height: 5px;
+    width: 100%;
+    background-color: #f9a414;
+    
+}
+
+
+.menugreen {
+    height: 5px;
+    width: 100%;
+    background-color: #6da633;
+    
+}
+
+.menublue {
+    height: 5px;
+    width: 100%;
+    background-color: #0095da;
+}
+
+.menured {
+     height: 5px;
+    width: 100%;
+    background-color: #e61c3d;
+}
