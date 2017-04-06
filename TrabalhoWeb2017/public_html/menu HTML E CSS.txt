@@ -1,0 +1,69 @@
+<div class="menu"><!-- INICIO Menu -->
+            <li> <a href="#">SOBRE NÓS</a>
+                <ul>
+                    <li><a href="#">A CRIANÇA SEGURA</a></li>
+                    <li><a href="#">ENTENDA NOSSA CAUSA</a></li>
+                    <li><a href="#">NOSSOS PARCEIROS</a></li>
+                    <li><a href="#">ESTATUTO E RELATÓRIOS</a></li>
+                    <li><a href="#">CONSELHO</a></li>
+                </ul>
+            </li>
+            <li><a href="#">NOTÍCIAS</a></li>
+                
+            
+            <li><a href="#">IMPRENSA</a></li>
+            <li><a href="#">PUBLICAÇÕES</a></li>
+            <li><a href="#">DÚVIDAS FREQUENTES</a></li>
+            <li><a href="#">CONTATO</a></li>
+            
+        </div>
+
+
+-----------------------------------CSS DO MENU --------------------------------------
+/* MENU */
+.menu {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 20px 0 0 350;
+    border: 1px solid #4c606b;
+    float: left;
+}
+.menu li {
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4c606b;
+    height: 28px;
+    line-height: 28px;
+}
+
+.menu li a {
+    font-family: Tahoma;
+    font-size: 11px;
+    color:#FFFFFF;
+    text-decoration: none;
+    
+}
+
+.menu li ul {
+    position: absolute;
+    top: 28px;
+    left: -20px;
+    display: none;
+}
+
+
+.menu li:hover ul, .menu li ul li:hover ul, .menu lio.over ul, .menu li ul li.over ul {
+    display: block;  
+    
+}
+.menu li ul li {
+    border:1px solid #4c606b;
+    display: block;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+}
+
+  

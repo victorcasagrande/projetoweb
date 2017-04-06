@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" href="http://criancasegura.org.br/wp-content/themes/crianca-segura/img/favicon.ico" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $('.bx-View .bx-slide ').cycle({             
+              fx: 'fade',
+              speed:2000,
+              timeout: 3000
+          });
+      });
+
+    </script>
 </head>
   <body>
     <div class="Container pagina"> <!-- INICIO Conteiner da pagina -->
@@ -25,21 +37,20 @@
             </div>
           </div>
           <div class="segBloco busca">
-            <div class="linha-busca">
+            
               <div class="form-buscar">
                 <form class="formulario-buscar" method="get" pa>
                     <input type="text" name="s" placeholder="Buscar">
                     <input value="OK" alt="Pesquisar" type="submit">
                 </form>
               </div>
-            </div>
+            
           </div>
         </div><!-- FIM  do SEGUNDO BLOCO-->
         <div class="Conteiner container terceiroBloco"><!-- INICIO do TERCEIRO Bloco -->
           <div class="areaFechada">
-            <div class="areaFechada linha">
               <div class="area-adm conteudo">
-                Área Administrativa
+                <span>Área Administrativa</span>
               </div>
 
               <div class="form-login">
@@ -57,15 +68,142 @@
                     <input name="redirect_to" value="http://criancasegura.org.br/" type="hidden">
                   </p>
               </form>
-            </div>
-
+            </div>         
+          </div>         
+        </div><!-- FIM do TERCEIRO Bloco -->
+        <div class="Conteiner container QuartoBloco"><!--Inicio do Quarto Bloco-->
+          <ul class="redesSociais">
+            <li><a class="efeitoRede" href="#"><img src="img/icon-facebook.jpg"></a></li>
+             <li><a class="efeitoRede" href="#"><img src="img/icon-twitter.jpg"></a></li>
+             <li><a class="efeitoRede" href="#"><img src="img/icon-instagram.jpg"></a></li>
+             <li><a class="efeitoRede" href="#"><img src="img/icon-youtube.jpg"></a></li>
+          </ul>
+        </div>
+        <div class="Container Menu"><!--Inicio do MENU-->
+        <!--Aqui o Vitor Vai Fazer-->
+      </div><!-- FIM DO MENU-->
+      <div class="container-apresentaStatistica"><!-- INICIO do Apresentação Estatistica -->
+          <div class="containerApre">
+            <div class="linha_Apre">
+              <div class="container_interno">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-evite-acidentes.jpg">
+                    </a>
+                    <span class="legenda-home">
+                      <a href="">Evite acidentes
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-cursos.jpg">
+                    </a>
+                      <span class="legenda-home">
+                          <a href="">Evite acidentes
+                          </a>
+                      </span>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-dados-acidentes.jpg">
+                    </a>
+                      <span class="legenda-home">
+                        <a href="">Evite acidentes
+                        </a>
+                      </span>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-apoie-a-causa.jpg">
+                    </a>
+                      <span class="legenda-home">
+                        <a href="">Evite acidentes
+                        </a>
+                      </span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          
-          
-        </div><!-- FIM do TERCEIRO Bloco -->
+        </div><!-- FIM do Apresentação Estatistica -->
       </div><!-- FIM  do Header pagina-->
-      
+      <div class="containerSlideShow"><!-- INICIO DO SLIDE SHOW-->
+        <div class="linha-SlideShow">
+          <div class="bx-wrapper">
+            <div class="bx-View">
+              <ul class="bx-slide">
+                  <li>
+                      <img src="img/banner-pet-2-2.jpg">
+                      <div class="bx-center-destaque">
+                        <div class="bx-interior">
+                          <div class="bx-rubrica">
+                            <a href="#">
+                              Previna acidentes <br> envolvendo crianças e animais
+                            </a>
+                          </div>
+                          <div class="bx-rubrica-2">
+                            <a href="#">
+                              Em parceria com a Criança Segura, Alexandre Rossi, conhecido como Dr. Pet, dá diversas dicas para evitar acidentes com crianças e seus bichos de estimação.
+                            </a>
+                          </div>
+                          <div class="bx-rubrica-3">
+                            <a href="#">VEJA MAIS</a>
+                          </div>
+                        </div>
+                      </div>
+                  </li>
+                  <li>
+                      <img src="img/Imagem_Slider_1.jpg">
+                      <div class="bx-center-destaque">
+                        <div class="bx-interior">
+                          <div class="bx-rubrica">
+                            <a href="#">
+                              Quero meu <br>parquinho seguro
+                            </a>
+                          </div>
+                          <div class="bx-rubrica-2">
+                            <a href="#">
+                              Criança Segura e Papo de Mãe lançam campanha para aumentar a segurança das crianças durante a diversão
+                            </a>
+                          </div>
+                          <div class="bx-rubrica-3">
+                            <a href="#">VEJA MAIS</a>
+                          </div>
+                        </div>
+                      </div>
+                  </li>
+                  <li>
+                      <img src="img/Imagem_Slider_2.jpg">
+                      <div class="bx-center-destaque">
+                        <div class="bx-interior">
+                          <div class="bx-rubrica">
+                            <a href="#">
+                              Inspeção rotineira<br>no parquinho
+                            </a>
+                          </div>
+                          <div class="bx-rubrica-2">
+                            <a href="#">
+                              Saiba como você fazer uma inspeção rotineira no parquinho, para garantir a segurança das crianças.
+                            </a>
+                          </div>
+                          <div class="bx-rubrica-3">
+                            <a href="#">VEJA MAIS</a>
+                          </div>
+                        </div>
+                      </div>
+                  </li>
+                  
+              </ul>
+                
+            </div>
+            
+          </div>
+        </div>
+        
+      </div><!-- FIM DO SLIDE SHOW-->
+
     </div><!-- FIM  do Conteiner da pagina -->
   </body>
 </html>

@@ -1,83 +1,737 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+  <head>
     <meta charset="UTF-8">
+    
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="http://criancasegura.org.br/wp-content/themes/crianca-segura/img/favicon.ico" />
-        
+    <title>Primeiro trabalho</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $('.box-ViewPort .box-Slide').cycle({             
+              fx: 'fade',
+              speed:2000,
+              timeout: 3000
+          });
+      });
 
+    </script>
 
-</head>
+  </head>
   <body>
-    <div class="container"> <!-- INICIO Conteiner da pagina -->
-        <div class="container header"> <!-- INICIO Conteiner da do Header -->
-          <div class="container logo"> <!-- INICIO Conteiner da do que controla o Logo -->
-              <div class="box-logo">
-                <a href="#"><img src="img/logo.png"></a>
-              </div>  
-          </div> <!-- FIM do conteiner do Logo -->
-          <div class="container doacao"><!-- INICIO Conteiner da do que controla o DOACAO-->
-            <div class="botao-doacao"><!-- INICIO BOTÃO da do que controla o DOACAO-->
-                <a href="#">FAÇA SUA DOAÇÃO</a>
-            </div>
-          </div>
-          <div class="container buscar"><!-- INICIO BOTÃO da do que controla o BUSCA-->
-              <div class="linha buscar">
-                <div class="form buscar">
-                    <form role="search" action="" method="get" id="searchform">
-                      <input type="text" name="s" placeholder="BUSCA"/>
-                      <input type="submit" value="OK" alt="Pesquisar"/>
-                     </form>
+   
+      <div class="Conteiner"><!--*** INICIO do CONTAINER **-->
+        <div class="linhaColorida"><!--*** INICIO da LINHA COLORIDA**-->
+            <div class="a b c d orange"></div>
+            <div class="a b c d green"></div>
+            <div class="a b c d blue"></div>
+            <div class="a b c d red"></div>
+        </div><!--*** FIM da LINHA COLORIDA **-->
+        <div class="header"><!--*** INICIO do HEADER **-->
+          <div class="primeir-linha-heard">
+            <div class="linha">
+              <div class="logo"><!--*** INICIO DO LOGO **-->
+                <div class="logo-box">
+                    <a href="#">
+                      <img src="img/logo.png">
+                    </a>
                 </div>
-              </div>
-          </div>
-          <div class="container login">
-              <div class="container area-fechada">
-                  <div class="row">
-                      <div class="area-administrativa login-conteudo">
-                        Área administrativa
-                      </div>
+              </div><!--*** FIM DO LOGO **-->
+              <div class="blo-doacao"><!--*** INICIO DO Bloco DOACAO **-->
+                  <div class="botao-doacao">
+                    <a href="#">
+                      FAÇA SUA DOAÇÃO
+                    </a>
                   </div>
-                  <div class="form-login">
-                    <form name="loginform" id="loginform" action="#" method="post"> 
+              </div><!--*** FIM DO DOACAO **-->
+              <div class="blo-buscar"><!--*** INICIO DO Bloco BUSCAR**-->
+                <div class="caixa-bucar">
+                  <form role="search" action="http://criancasegura.org.br/" method="get" id="searchform">
+                     <input type="text" name="s" placeholder="BUSCA"/>
+                    <input class="btn_ok" type="submit" value="OK" alt="Pesquisar"/>
+                  </form>
+                </div>
+              </div><!--*** FIM DO BUSCAR**-->
+              <div class="blo-login"><!--*** INICIO DO Bloco LOGIN**-->
+                <div class="area-adm conteudo">
+                          Área de Admin
+                </div>
+                <div class="form-login">
+                  <form name="loginform" id="loginform" action="http://criancasegura.org.br/wp-login.php" method="post">     
                         <p class="login-username">
                           <label for="user_login"></label>
-                          <input type="text" name="log" id="user_login" class="input" value="" size="20" placeholder="Login" />
+                          <input type="text" name="log" id="user_login" class="input" value="" size="20" placeholder="LOGIN" />
                         </p>
                         <p class="login-password">
                           <label for="user_pass"></label>
-                          <input type="password" name="pwd" id="user_pass" class="input" value="" size="20"  placeholder="Senha" />
-                        </p>
+                          <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" placeholder="SENHA"/>
+                        </p>      
                         <p class="login-submit">
                           <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="OK" />
                           <input type="hidden" name="redirect_to" value="http://criancasegura.org.br/" />
-                        </p>
-                    </form>  
-                  </div>
+                        </p>                       
+                    </form>                                
+                </div>
+              </div><!--*** FIM DO Bloco LOGIN**-->
+              <div class="blo-redesSociais"><!--*** INICIO DO Bloco REDES SOCIAIS **-->
+                <ul  class="Home_rede_sociais">
+                    <li class="efeito_Social">
+                      <a href="#">
+                        <img class="iconeSocial" src="img/icon-facebook.jpg">
+                      </a>
+                    </li>
+                    <li class="efeito_Social">
+                      <a href="#">
+                        <img  class="iconeSocial" src="img/icon-twitter.jpg">
+                      </a>
+                    </li>
+                    <li class="efeito_Social">
+                      <a href="#">
+                        <img class="iconeSocial" src="img/icon-instagram.jpg">
+                      </a>
+                    </li>
+                    <li class="efeito_Social">
+                      <a href="#">
+                        <img   class="iconeSocial" src="img/icon-youtube.jpg">
+                      </a>
+                    </li>
+                </ul>
+              </div><!--*** FIM DO Bloco REDE SOCIAIS**-->
+                
+            </div><!--*** FIM Da LINHA cabecalho**-->
+
+          </div><!-- ****FIm da Primeira Linha **-->
+          <div class="ConteinerMenu"><!--*** INICIO DO MENU**-->
+            
+          </div>
+          <div class="ContainerDados"><!--*** INICIO do Container Dados S**-->
+            <div class="container">
+              <div class="terceiraLinha">
+                  <div class="container_interno">
+                <ul>
+                  <li>
+                    <a  href="#">
+                      <img src="img/icon-evite-acidentes.jpg">
+                    </a>
+                    <span class="legenda-home">
+                      <a class="acidente" href="">Evite acidentes
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-cursos.jpg">
+                    </a>
+                      <span class="legenda-home">
+                          <a class="cursos" href="">Nossos cursos
+                          </a>
+                      </span>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-dados-acidentes.jpg">
+                    </a>
+                      <span class="legenda-home">
+                        <a class="dadosAcidente" href="">Dados de acidentes
+                        </a>
+                      </span>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-apoie-a-causa.jpg">
+                    </a>
+                      <span class="legenda-home">
+                        <a class="apoie" href=""> Apoie a causa
+                        </a>
+                      </span>
+                  </li>
+                </ul>
               </div>
+              </div>
+            </div>
+          </div><!--*** FIM Container Dados S**-->
+        </div><!--*** FIM do HEADER **-->
+        <div class="conteiner-home-banner"><!--*** INICIO do BANNER**-->
+          <div class="linha-banner">
+            <div class="box-corpo">
+              <div class="box-ViewPort">
+                <ul class="box-Slide">
+                    <li>
+                          <img src="img/banner-pet-2-2.jpg">
+                          <div class="bx-center-destaque">
+                            <div class="bx-interior">
+                              <div class="bx-rubrica">
+                                <a href="#">
+                                  Previna acidentes <br> envolvendo crianças e animais
+                                </a>
+                              </div>
+                              <div class="bx-rubrica-2">
+                                <a href="#">
+                                  Em parceria com a Criança Segura, Alexandre Rossi, conhecido como Dr. Pet, dá diversas dicas para evitar acidentes com crianças e seus bichos de estimação.
+                                </a>
+                              </div>
+                              <div class="bx-rubrica-3">
+                                <a href="#">VEJA MAIS</a>
+                              </div>
+                            </div>
+                          </div>
+                      </li>
+                      <li>
+                          <img src="img/Imagem_Slider_1.jpg">
+                          <div class="bx-center-destaque">
+                            <div class="bx-interior">
+                              <div class="bx-rubrica">
+                                <a href="#">
+                                  Quero meu <br>parquinho seguro
+                                </a>
+                              </div>
+                              <div class="bx-rubrica-2">
+                                <a href="#">
+                                  Criança Segura e Papo de Mãe lançam campanha para aumentar a segurança das crianças durante a diversão
+                                </a>
+                              </div>
+                              <div class="bx-rubrica-3">
+                                <a href="#">VEJA MAIS</a>
+                              </div>
+                            </div>
+                          </div>
+                      </li>
+                      <li>
+                          <img src="img/Imagem_Slider_2.jpg">
+                          <div class="bx-center-destaque">
+                            <div class="bx-interior">
+                              <div class="bx-rubrica">
+                                <a href="#">
+                                  Inspeção rotineira<br>no parquinho
+                                </a>
+                              </div>
+                              <div class="bx-rubrica-2">
+                                <a href="#">
+                                  Saiba como você fazer uma inspeção rotineira no parquinho, para garantir a segurança das crianças.
+                                </a>
+                              </div>
+                              <div class="bx-rubrica-3">
+                                <a href="#">VEJA MAIS</a>
+                              </div>
+                            </div>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+              <div class="box-controle-direcao">
+                <a class="bx-prev" href="">Prev</a>
+                <a class="bx-next" href="">Prev</a>
+              </div>
+            </div>
+          </div>
+        </div><!--*** FIM do BANNER **-->
+        <div class="home-noticias"><!--*** INICIO do HOME NOTICIAS **-->
+          <div class="linha-Noticias">
+            <div class="ultimas-noticias">
+              <h2><a href="#">Últimas notícias<a></h2>
+            </div>
+            <div class="todasNoticias">
+              <h3><a href="#">+ Ver todas as notícias</a></h3>
+            </div>
+          </div>
+          <div class="linha-Noticias blocoNoticias">
+            <div class="blocoNoticias1">
+              <article>
+                <span class="home-noticias-thumb">
+                  <a href="#">
+                    <img width="360" height="272" src="img/na-midia_home-360x272.jpg" class="img-responsive wp-post-image" alt="na midia_home" title="Criança Segura na mídia em março" />                
+                  </a>
+              </span>
+                <h4>
+                  <a href="#">Criança Segura na mídia em março</a>
+                </h4>
+                <span class="home-noticias-descricao">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Matérias sobre acidentes        de       consumo e índices de mortes no trânsito foram os destaques deste mês</a>
+                </span>
+                <span class="home-noticias-mais">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Ver mais</a>
+                </span>
+              </article>
+            </div>
+            <div class="blocoNoticias1">
+              <article>
+                <span class="home-noticias-thumb">
+                  <a href="#">
+                    <img width="360" height="272" src="img/PLparquinho_home-360x272.jpg" class="img-responsive wp-post-image" alt="na midia_home" title="Criança Segura na mídia em março" />                
+                  </a>
+              </span>
+                <h4>
+                  <a href="#">Senado aprova projeto de lei que trata sobre segurança nos parquinhos infantis</a>
+                </h4>
+                <span class="home-noticias-descricao">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Cumprimento das normas de segurança da ABNT passará a ser obrigatório na construção e manutenção desses espaços.</a>
+                </span>
+                <span class="home-noticias-mais">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Ver mais</a>
+                </span>
+              </article>
+            </div>
+
+              <div class="blocoNoticias1">
+              <article>
+                <span class="home-noticias-thumb">
+                  <a href="#">
+                    <img width="360" height="272" src="img/criancafeliz_home-360x272.jpg" class="img-responsive wp-post-image" alt="na midia_home" title="Criança Segura na mídia em março" />                
+                  </a>
+              </span>
+                <h4>
+                  <a href="#">Em lançamento do Criança Feliz, Alckmin ressalta a importância da prevenção de acidentes com crianças</a>
+                </h4>
+                <span class="home-noticias-descricao">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Governador de São Paulo afirma que as ações do programa federal irão olhar para a infância de forma global.</a>
+                </span>
+                <span class="home-noticias-mais">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Ver mais</a>
+                </span>
+              </article>
+            </div>
+
+          </div>
+        </div><!--*** FIM do HOME NOTICIAS  **-->
+
+         <div class="home-acidentes"><!--*** INICIO do HOME NOTICIAS **-->
+          <div class="linha-acidentes">
+            <div class="ultimas-acidentes">
+              <h2><a href="#">Evite acidentes<a></h2>
+            </div>
+            <div class="todasAcidente">
+              <h3><a href="#">+ Ver todas as dicas</a></h3>
+            </div>
+          </div>
+          <div class="linha-Noticias blocoNoticias">
+            <div class="blocoNoticias1">
+              <article>
+                <span class="home-noticias-thumb">
+                  <a href="#">
+                    <img width="360" height="272" src="img/crianca-segura-dicas-quedas-1.jpg" class="img-responsive wp-post-image" alt="na midia_home" title="Criança Segura na mídia em março" />                
+                  </a>
+              </span>
+                <h4>
+                  <a href="#">Dicas de prevenção de acidentes em áreas externas</a>
+                </h4>
+                <span class="home-noticias-descricao">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Conforme vão crescendo e ganhando autonomia, as crianças começam a sair de casa cada vez mais de casa, seja para passear, brincar ou ir à escola. Veja dicas para garantir a segurança delas.</a>
+                </span>
+                <span class="home-acidentes-mais">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Ver mais</a>
+                </span>
+              </article>
+            </div>
+            <div class="blocoNoticias1">
+              <article>
+                <span class="home-noticias-thumb">
+                  <a href="#">
+                    <img width="360" height="272" src="img/crianca-segura-dicas-acidentes-sufocacao-1-1.jpg" class="img-responsive wp-post-image" alt="na midia_home" title="Criança Segura na mídia em março" />                
+                  </a>
+              </span>
+                <h4>
+                  <a href="#">Como prevenir sufocação e engasgamento</a>
+                </h4>
+                <span class="home-noticias-descricao">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">A sufocação ou obstrução das vias aéreas é a primeira causa de morte acidental de bebês até um ano de idade. Veja dicas para prevenir este tipo de acidente.</a>
+                </span>
+                <span class="home-acidentes-mais">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Ver mais</a>
+                </span>
+              </article>
+            </div>
+
+              <div class="blocoNoticias1">
+              <article>
+                <span class="home-noticias-thumb">
+                  <a href="#">
+                    <img width="360" height="272" src="img/crianca-segura-dicas-afogamento-1.jpg" class="img-responsive wp-post-image" alt="na midia_home" title="Criança Segura na mídia em março" />                
+                  </a>
+              </span>
+                <h4>
+                  <a href="#">Como prevenir afogamentos</a>
+                </h4>
+                <span class="home-noticias-descricao">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">No Brasil, os afogamentos são a segunda maior causa de morte e a sétima de hospitalização por motivos acidentais entre crianças com idade de zero a 14 anos. Saiba como evitá-los.</a>
+                </span>
+                <span class="home-acidentes-mais">
+                  <a href="http://criancasegura.org.br/noticia/crianca-segura-na-midia-em-marco/">Ver mais</a>
+                </span>
+              </article>
+            </div>
+
+          </div>
+        </div><!--*** FIM do HOME ACIDENTES  **-->
+        <div class="Container_Dados-Acidentes"><!--*** INICIO do DADOS HOME ACIDENTES  **-->
+          <div class="conteiner-dados">
+            <div class="linha-Dados">
+              <div class="blo-dados1">
+                <h2>
+                  <a href="#">Dados de acidentes</a>
+                </h2>
+                <div class="home-dado-acidente-e">
+                  Acidentes são hoje a principal causa de morte de crianças de um a 14 anos no Brasil. Todos os anos, cerca de 4,5 mil crianças dessa faixa etária morrem e outras 122 mil são hospitalizadas devido a essas causas no país.
+                </div>
+              </div>
+               <div class="home-dados-img">
+                <img src="img/eviteacidentes-1.jpg">
+              </div>
+                <div class="bx-wrapper">
+                  <div class="bx-viewport">
+                    <ul class='bxslider-dados-de-acidentes'>
+                        <li>
+                          <span class="home-dados-de-acidente-banner-titulo">13</span>
+                          <span class="home-dados-de-acidente-banner-subtitulo">crianças</span>
+                          <span class="home-dados-de-acidente-banner-conteudo">São perdidas por dia no Brasil.</span>
+                          <span class="home-dados-de-acidente-more">
+                            <a href="#">Ver mais
+                            </a>
+                          </span>
+                        </li>
+                        <li>
+                            <span class="home-dados-de-acidente-banner-titulo">4.578</span>
+                            <span class="home-dados-de-acidente-banner-subtitulo">mortes</span>
+                            <span class="home-dados-de-acidente-banner-conteudo">Estes são os dados de acidentes com crianças de 2013.
+                            </span>
+                            <span class="home-dados-de-acidente-more">
+                                <a href="#">Ver mais</a>
+                            </span>
+                          </li>
+                          <li>
+                            <span class="home-dados-de-acidente-banner-titulo">122 mil</span>
+                            <span class="home-dados-de-acidente-banner-subtitulo">crianças </span>
+                            <span class="home-dados-de-acidente-banner-conteudo">Número de hospitalizações em 2014.</span>
+                            <span class="home-dados-de-acidente-more">
+                              <a href="#">Ver mais</a>
+                            </span>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+          </div>
             
           </div>
-          <div class="container redesSociais"><!-- INICIO das redes Sociais-->
-              <ul class="menuRedes sociais">
-                <li class="redesSocial">
-                    <img src="img/icon-facebook.jpg">
-                </li>
-                <li class="redesSocial">
-                    <img src="img/icon-twitter.jpg">
-                </li>
-                <li class="redesSocial">
-                    <img src="img/icon-instagram.jpg">
-                </li>
-                <li class="redesSocial">
-                    <img src="img/icon-youtube.jpg">
-                </li>
-              </ul>
-          </div><!-- FIM DAS REDER SOCIAIS-->
-          <div class="M">
-            
+          
+        </div><!--*** FIM do DADOS HOME ACIDENTES  **-->
+        <div class="containerCurso"><!--*** INICIO do BLOCO DE CURSOS  **-->
+          <div class="linha-Curso">
+            <div class="bloco-Curso">
+              <h2>
+                <a href="#">Nossos Cursos</a>
+              </h2>
+            </div>
+            <div class="bloco-mais-Curso">
+              <h3>
+                <a href="#">+ Mais sobre os cursos</a>
+              </h3>
+            </div>
+            <div class="bloco-Curso-bloco">
+              <div class="bloco-Curso1">
+                <article>
+                    <span class="home-cursos-thumb">
+                      <a href="" target="_blank">
+                          <img width="360" height="300" src="img/Curso-de-transito-destaque.jpg" class="img-responsive wp-post-image" alt="curso-de-transito-destaque" title="Trânsito" srcset="" sizes="(max-width: 360px) 100vw, 360px" />                
+                      </a>
+                    </span>
+                    <h4>
+                      <a href="http://ead.criancasegura.org.br/login.php" target="_blank">Trânsito</a>
+                    </h4>
+                    <span class="paragrafo-cursos">
+                      <a href="#" target="_blank">Desenvolvido para sensibilizar e formar profissionais de diferentes áreas de atuação para que promovam a cultura de prevenção de acidentes com crianças e adolescentes no trânsito.</a>
+                    </span>
+                     <span class="home-cursos-more">
+                      <a href="" target="_blank">Ver mais</a>
+                    </span>
+                </article>
+                
+              </div><!-- FIM DO BLOCO CURSO 1-->
+              <div class="bloco-Curso2"><!-- INICIO DO BLOCO CURSO 2-->
+                <article>
+                    <span class="home-cursos-thumb">
+                      <a href="" target="_blank">
+                          <img width="360" height="300" src="img/curso-familiares-destaque.jpg" class="img-responsive wp-post-image" alt="curso-de-transito-destaque" title="Trânsito" srcset="" sizes="(max-width: 360px) 100vw, 360px" />                
+                      </a>
+                    </span>
+                    <h4>
+                      <a href="http://ead.criancasegura.org.br/login.php" target="_blank">Familiares e responsáveis</a>
+                    </h4>
+                    <span class="paragrafo-cursos">
+                      <a href="#" target="_blank">Desenvolvido para informar familiares e responsáveis de crianças e adolescentes de até 14 anos de idade sobre medidas que podem ser adotadas para prevenção de acidentes nessa faixa etária.</a>
+                    </span>
+                     <span class="home-cursos-more">
+                      <a href="" target="_blank">Ver mais</a>
+                    </span>
+                </article>
+                
+              </div><!-- FIM DO BLOCO DO CURSO- 2-->
+              <div class="bloco-Curso3">
+                <article>
+                    <span class="home-cursos-thumb">
+                      <a href="" target="_blank">
+                          <img width="360" height="300" src="img/curso-multiplicadores-destaque.jpg" class="img-responsive wp-post-image" alt="curso-de-transito-destaque" title="Trânsito" srcset="" sizes="(max-width: 360px) 100vw, 360px" />                
+                      </a>
+                    </span>
+                    <h4>
+                      <a href="http://ead.criancasegura.org.br/login.php" target="_blank">Multiplicadores</a>
+                    </h4>
+                    <span class="paragrafo-cursos">
+                      <a href="#" target="_blank">Desenvolvido para informar familiares e responsáveis de crianças e adolescentes de até 14 anos de idade sobre medidas que podem ser adotadas para prevenção de acidentes nessa faixa etária.</a>
+                    </span>
+                     <span class="home-cursos-more">
+                      <a href="" target="_blank">Ver mais</a>
+                    </span>
+                </article>
+                
+              </div><!-- FIM DO BLOCO CURSO 1-->
+
+
+
+            </div><!-- FIM DO BLOCO DO CURSO-->
+          </div><!-- FIM DA LINHA CURSO-->
+          
+        </div><!--*** FIM do BLOCO DE CURSOS  **-->
+        <section class="home-parceiros"><!-- INICIO DO BLOCO DO CURSO-->
+          <div class="containerParceiros parceiros-line">
+            <div class="LinhaParceiros">
+              <div class="bloc-par1">
+                <div class="titulo-parc">Parceiros Internacionais</div>
+                  <ul>
+                    <li>
+                      <img src="img/parceiro1.jpg" class="img-responsive wp-post-image" alt="parceiro1" title="Safe Kids" />                  
+                    </li>
+                    <li>
+                      <img src="img/parceiro2.jpg" class="img-responsive wp-post-image" alt="parceiro2" title="Global Alliance" />                 
+                     </li>
+                  </ul>
+              </div>
+              <div class="bloc-par2">
+                  <div class="titulo-parc">Patrocinadores</div>
+                <ul>
+                  <li>
+                    <img src="img/patrocinador1.jpg" class="img-responsive wp-post-image" alt="patrocinador1" title="Johnson e Johnson" />                
+                  </li>
+                   <li>
+                      <img src="img/patrocinador2.jpg" class="img-responsive wp-post-image" alt="patrocinador2" title="Fedex" />                  
+                    </li>
+                    <li>
+                      <img src="img/patrocinador3.jpg" class="img-responsive wp-post-image" alt="patrocinador3" title="Cmdca" />                  
+                    </li>
+                      <li>
+                            <img src="img/patrocinador4.jpg" class="img-responsive wp-post-image" alt="patrocinador4" title="Prefeitura São Paulo" />                  
+                      </li>
+                  </ul>
+              </div>
+            </div>
           </div>
-        </div><!--FIM Conteiner da do Header -->
-    </div><!-- FIM  do Conteiner da pagina -->
+        </section><!-- FIM DO BLOCO DO CURSO-->
+        
+        <section class="home-seja-parceiro"><!-- INICIO DO BLOCO DO PARCEIROS-->
+          <div class="container-seja-parceiro">
+            <div class="seja-parceiro-linha">
+              <div class="linhaParc">
+                <div class="bloc-seja-parceiro1">
+                  <img src="http://criancasegura.org.br/wp-content/themes/crianca-segura/img/icon-parceiro.png" class="img-responsive" alt='Seja nosso parceiro' title="Seja nosso parceiro">
+                </div>
+                <div class="bloc-seja-parceiro2">
+                  <h2>Seja também nosso parceiro</h2>
+                </div>
+                <div class="bloc-seja-parceiro3">
+                  <span class="botao-seja-parceiro">
+                    <a href="#/">
+                      Clique aqui e saiba mais
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!-- FIM DO BLOCO DO PARCEIROS-->
+        <section class="home-newlaster"><!-- INICIO DO BLOCO DO NEWLASTER-->
+          <div class="home-newlaster cont">
+            <div class="conteiner-newlaster a">
+              <div class="conteiner-newlaster interno">
+                <div class="conteiner-newlaster bloc1newlaster">
+                  <div class="bloco1">
+                    <div class="newsletter-texto">Receba dicas e novidades 
+                        <span class="newsletter-color">por email
+                        </span>
+                    </div>
+                  </div>
+                  <div class="bloco2">
+                    <div class="container2 bloco2Form">
+
+                        <form action="/action_page.php">
+                         <input type="text" name="fname" placeholder="Nome:"><br><br>
+                         <input type="text" name="E-mail" placeholder="Email:">
+                        
+                        <div class="bloco2Form recerberInformativo">
+                        <div class="control-recebernews">
+                          <span class="control-recebernews-checkbox">
+                            <input type="checkbox" name="">
+                          </span>
+                            <span class="control-recebernews-texto">
+                            Desejo receber novidades da Criança Segura e/ou parceiros por e-mail.
+                          </span>
+                          </div>
+                        </div>
+                        <div class="bloco2Form assinainformativo">
+                          <input type="submit" value="Assine" class="NEWLASTER-submit" />
+                        </div>
+                        </form>
+                    </div>
+                    
+                  </div>
+
+                  
+                </div>
+                <div class="bloco3">
+                    <div class="bloco3 linha-Margin">
+                      <div class="bloco3 p1">
+                        <div class="newsletter-img">
+                          <img src="img/icon-parceiro2.png">
+                        </div>
+                      </div>
+
+                         <div class="bloco3 p2">
+                            <div class="row margin-newsletter">
+                              <div class="bloco3 p2 p3">
+                                <span class="newsletter-text-apoie">Apoie a 
+                                  <span class="newsletter-color">
+                                    <br>causa
+                                  </span>
+                                </span>
+                                <span class="newsletter-text-botao">
+                                  <a href="http://criancasegura.org.br/apoie-nossa-causa/">
+                                    Eu quero
+                                  </a>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </section><!-- FIM DO BLOCO DO NEWLASTER-->
+        <footer class="footer"> 
+            <div class ="footerdiv">
+              <div class="conteriner-interno-footer">
+                <div class="linha-footer">
+                  <div class="logo-footer">
+                    <a href="#">
+                      <img src="img/logo2.png">
+                    </a> 
+                  </div>
+                  <div class="seg-bloco-Menu">
+                    <div class="linha">
+                      <div class="seg-bloco-Menu sobreNos">
+                        <div class="menufooterColuna1">
+                          <ul class="menu">
+                            <li><a href="#">Sobre nós
+                                </a>
+                                <ul class="subMenu">
+                                  <li id="menu-item-1106" class="">
+                                    <a href="#">A Criança Segura
+                                    </a>
+                                  </li>
+                                  <li id="menu-item-1107" class="">
+                                    <a href="/sobre-nos/#entenda">Entenda nossa causa</a>
+                                  </li>
+                                  <li id="menu-item-1108" class=""><a href="#">Conselho</a>
+                                  </li>
+                                  <li id="menu-item-1109" class="">
+                                    <a href="#">Parceiros</a>
+                                  </li>
+                                  <li id="menu-item-1110" class="">
+                                    <a href="#">Estatuto e relatórios</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li id="menu-item-1111" class=""><a>Contato</a></li>
+                              <li id="menu-item-1112" class=""><a>Notícias</a></li>
+
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="seg-bloco-Menu publicacoes">
+                        <div class="menufooterColuna2">
+                          <div class="menufooterColuna1">
+                            <ul class="menu">
+                              <li>
+                                <a href="#">PUBLICAÇÕES</a>
+                                <ul class="subMenu">
+                                  <li><a href="#">BOLETINS</a></li>
+                                  <li><a href="#">MATERIAIS EDUCATIVOS</a></li>
+                                  <li><a href="#">PESQUISAS</a></li>
+                                  <li><a href="#">RELATÓRIO INSTITUCIONAL</a></li>
+                                  <li><a href="#">POSICIONAMENTO</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="#">DÚVIDAS FREQUENTES</a>
+                              </li>
+                               <li>
+                                <a href="#">APOIE NOSSA CAUSA</a>
+                              </li>
+                              
+                            </ul>
+                            
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="seg-bloco-Menu imprensa-acidente">
+                        <div class="menufooterColuna3">
+                          <div class="bloco-imprensa">
+                          <div class="menufooterColuna1">
+                            <ul class="menu">
+                              <li class="imprensa-acidente um"><a href="#">IMPRENSA</a>
+                                <ul class="subMenu">
+                                  <li><a href="#">RELEASES</a></li>
+                                  <li><a href="#">CLIPPING</a></li>
+                                  <li><a href="#">POR AMBIENTE</a></li>
+                                  
+                                </ul>
+                              </li>
+                               <li><a href="#">ÁREAS ADMIN</a></li>
+                                <li><a href="#">DADOS DE ACIDENTES</a></li>
+                            </ul>
+                          </div>
+                          </div>
+                          <div class="bloco-evite-acidentes">
+                            <div class="menufooterColuna1">
+                              <ul class="menu">
+                                <li><a href="">EVITE ACIDENTES</a>
+                                  <ul class="subMenu">
+                                    <li><a href="#">POR IDADE</a></li>
+                                    <li><a href="#">ÁREA DE RISCO</a></li>
+                                    <li><a href="#">POR AMBIENTE</a></li>
+                                  </ul>
+                                </li>
+                                
+                              </ul>
+                              
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </footer>
+
+      </div><!--*** FIM do CONTEINER **-->
+    
   </body>
 </html>

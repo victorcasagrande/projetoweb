@@ -1,0 +1,81 @@
+HTML
+<footer class="footer"> 
+            
+            <div class ="footerdiv">
+                <div class="footerlogo"> <!-- Logo das crianças-->
+                    <a href="#">
+                        <img src="img/criancaSeguraBranco.png">
+                    </a>
+                </div> <!-- FIM Logo das crianças-->
+                
+                <div class="menufootercoluna1">
+                    <ul><a href="#">sobre nós</a>                       
+                        <li><a href="#">a criança segura</a></li>
+                        <li><a href="#">entenda nossa causa</a></li>
+                        <li><a href="#">conselho</a></li>
+                        <li><a href="#">parceiros</a></li>
+                        <li><a href="#">estatuto e relatórios</a></li>
+                    </ul>
+                    
+                    
+                    
+                </div>
+            </div>
+        </footer>
+----------------------------------CSS----------------------
+.footerdiv {
+    display: inline-block; 
+    background-color: #4ca8da;
+    width: 100%;
+
+}
+.footerlogo{
+    display: inline; 
+    left: 10%; /* posiciona  para a esquerda */ 
+    top: 22%; /* posiciona para baixo */
+    width: 16.66666667%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.menufootercoluna1{
+    display: inline-block;  
+    left: 10%; /* posiciona  para a esquerda */ 
+    top: 22%; /* posiciona para baixo */
+    width: 10%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.menufootercoluna1 ul {
+    color: #03538c;
+    font-family: Calibri,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    
+    
+    
+}
+.menufootercoluna1 li a{
+    text-decoration: none;
+}
+.menufootercoluna1 ul a:hover {
+    color:#337ab7;
+}
+
+.menufootercoluna1 li{
+    list-style-type: none;
+    color: #03538c;
+    font-family: Calibri,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding-left: 6px;
+}
