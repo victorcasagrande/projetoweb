@@ -7,7 +7,6 @@
 
 /****************************************************** RESET *****************************************/
 /****************************************************** FONTS *****************************************/
-@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700,900');
 
 /*@font-face {
   font-family: 'Calibri';
@@ -32,159 +31,6 @@
 
 /****************************************************** VARIABLES *****************************************/
 /****************************************************** BXSLIDER *****************************************/
-.bxslider {
-  margin-top: 10px; }
-
- .CenterPage {
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.innerCenter {
-    display: block;
-    width: 100%;
-    max-width: 1170px;
-  margin: 5% auto 0;
-}
-
-@media (min-width: 769px) {
-
-.innerCenter {
-  margin: 0 auto;
-}
-
-}
-
-.bxslider .bx-caption {
-  position: relative;
-  left:160px;
-  top: 10px;
-  font-family: Calibri,Arial,sans-serif; 
-  font-size: 3.8em;
-  font-weight: bold;
-  line-height: 49px;
-  padding: 10px;
-  background: none;
-  bottom: inherit;
-  letter-spacing: -1px;
-  display: block; }
-
-.bxslider .bx-caption a,
-.bxslider .bx-caption a:visited {
-  background: #2294d1;
-  color: #ffffff;
-  text-decoration: none;
-  display: inline-block;
-  background: #2294d1;
-  padding: 0px 10px 20px 10px;
-  /*width: 540px;*/
-}
-
-.bxslider .bx-caption a:nth-child(2) {
-  /*width: 690px;*/
-  padding: 0 10px 10px  10px; }
-
-.bxslider .bx-caption2 {
-  position: relative;
-    left: 170px;
-    width: 435px;
-    top: -10px;
-    font-family: Calibri,Arial,sans-serif; 
-    font-size: 17px;
-    line-height: 20px;
-    padding-left: 19px;
-    padding-top: 5px;
-    background: #2294d1;
-    padding-bottom: 5px;
-    padding-right: 20px; }
-
-.bxslider .bx-caption2 a,
-.bxslider .bx-caption2 a:visited {
-  color: #ffffff;
-  text-decoration: none; }
-
-.bxslider .bx-caption3 {
-  position: relative;
-  left: 170px;
-  width: 105px;
-  top: 10px;
-  font-family: Calibri,Arial,sans-serif; 
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 20px;
-  padding-left: 0;
-  padding-top: 10px;
-  background: #4ba7d9;
-  padding-bottom: 5px;
-  text-align: center;
-  border-radius: 3px; }
-
-.bxslider .bx-caption3 a,
-.bxslider .bx-caption3 a:visited {
-  color: #ffffff;
-  text-decoration: none; }
-
-  .limpaDiv:nth-child(3) {
-    clear:both;;
-}
-
-/****************************************************** BXSLIDER *****************************************/
-/****************************************************** CALENDAR *****************************************/
-/*#archives_calendar-2 {
-  margin-top: 158px;
-  -webkit-box-shadow: -1px 10px 15px 0px #bfbfbf;
-  -moz-box-shadow: -1px 10px 15px 0px #bfbfbf;
-  box-shadow: -1px 10px 15px 0px #bfbfbf;
-  list-style-type: none;
-  margin-bottom: 30px; }
-
-#archives_calendar-3 {
-  margin-top: 0px;
-  -webkit-box-shadow: -1px 10px 15px 0px #bfbfbf;
-  -moz-box-shadow: -1px 10px 15px 0px #bfbfbf;
-  box-shadow: -1px 10px 15px 0px #bfbfbf;
-  list-style-type: none; }
-
-.calendar-archives {
-  padding: 15px !important; }
-
-.calendar-archives.arw-theme1 .day.has-posts {
-  border: 1px solid #4ca8da;
-  border-radius: 100%;
-  padding: 1px;
-  width: 9% !important;
-  height: 1% !important;
-  background: #4ca8da; }
-
-.calendar-archives.arw-theme1 .day.has-posts a:hover {
-  color: #ffffff; }*/
-
-/****************************************************** CALENDAR *****************************************/
-/****************************************************** RESPONSIVE MENU *****************************************/
-.navbar-header .navbar-toggle {
-  background: #e61c3d;
-  margin-top: 5px; }
-
-.navbar-header .navbar-toggle .icon-bar {
-  background: #ffffff; }
-
-.nav-justified {
-  background-color: #4c606b; }
-
-.dropdown-menu {
-  display: none; }
-
-.dropdown-menu .caret {
-  display: none; }
-
-/****************************************************** RESPONSIVE MENU *****************************************/
-/****************************************************** CONTACT FORM VALIDATION *********************************/
-div.wpcf7-validation-errors {
-  border: 2px solid red;
-  color: red;
-  width: 202px; }
 
 /****************************************************** CONTACT FORM VALIDATION *********************************/
 /****************************************************** HEADER *****************************************/
@@ -3783,10 +3629,6 @@ width: 100%;
   border-radius: 10px;
 }
 
-#cboxClose. #cboxClose a {
-  outline:none;
-  border:none;
-}
 
 
 .SelBoletim {

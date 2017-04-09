@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/****************************************************** RESET *****************************************/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.7;
+}
+
+.conteiner-fluido{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+.conteiner{
+    margin: 0px auto;
+    width: 71.01024890190337%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+/************CONFIGURAÇÔES GERAIS*********/
+
+/************LINHA COLORIDA*********/
+.linhaColorida{
+    margin-right: -15px;
+    margin-left:  -15px;
+    position: relative;
+}
+
+
+
+.orange{
+    background-color: #f9a414;
+    height: 4px;
+    width: 25%;
+    float: left;
+}
+
+
+.green{
+    background-color: #6da633;
+    height: 4px;
+    width: 25%;
+    float: left;
+}
+
+
+.blue{
+    background-color: #0095da;
+    height: 4px;
+    width: 25%;
+    float: left;
+}
+
+.red{
+    background-color: #e61c3d;
+    height: 4px;
+    width: 25%;
+    float: left;
+}
+
+.primeira-linha-Header{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.linha{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/**********LOGO *********/
+/************PRIMEIRA LINHA DO HEARD*********/
+.primeir-linha-heard{
+    margin: 0px auto;
+    padding-bottom: 30px;
+}
+.header{
+    width: 100%;
+}
+.linha{
+    margin-right: -15px;
+
+}
+/************BLOCO LOGO*********/
+
+.logo{
+    width: 16%;
+    
+    float: left;
+}
+@media (max-width: 680px){
+    .logo{
+        width: 100%;
+        margin: 0px auto; 
+        display: block;
+        margin-top: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+        position: relative;
+        min-height: 1px;
+    }
+}
+
+.logo-box{
+    border: 10px solid #ffffff;
+    float: left;
+    margin-top: -4px;
+    box-shadow: 2px 4px 5px 0px; 
+}
+
+@media (max-width: 680px){
+    .logo-box{
+
+
+
+    }
+}
+.logo-box img{
+    width: 163px;
+    height: 94px;
+    max-height: 100%;
+
+}
+.content-segundoBloco{
+   width: 15%;
+   
+   float: left; 
+}
+@media (max-width: 680px){
+   .content-segundoBloco{
+    width: 100%;
+    margin-left:40px;
+    float: left;
+} 
+}
+/************BLOCO DOAÇAO*********/
+.content-segundoBloco .blo-doacao{
+    width: 17%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+@media (max-width: 680px){
+    .content-segundoBloco .blo-doacao{
+        width:40%;
+        margin: 0 auto;
+        display:block;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 20%;      
+        position: relative;
+    }
+}
+@media(max-width: 680px){
+    .blo-doacao{
+      padding:10px;
+        
+    } 
+}
+.botao-doacao{
+   padding:10px;
+   width: 12%;
+}
+@media(max-width:680px){
+    .botao-doacao{
+     height: 30px;
+     text-decoration: none;
+     width:100%;  
+     margin-top: 0px;
+     position: relative;
+    }
+}
+
+.botao-doacao a{
+    color: #ffffff;
+    background-color: #e61c3d;
+    height:25px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    width: 12%;
+    position: absolute;
+    font-size: 13px;
+}
+@media(max-width:680px){
+    .botao-doacao a{
+   color: #ffffff;
+    background-color: #e61c3d;
+    height:25px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    font-size: 13px;
+    
+}
+}
+
+/************BLOCO BUSCAR*********/
+.blo-buscar{
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+}
+@media (max-width: 680px){
+    .blo-buscar{
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    margin-left: 22%;
+    /* margin-right: 15%; */ 
+    }
+}
+.caixa-bucar{
+    font-size: 15px;
+    width: 90%;
+}
+@media (max-width: 680px){
+    .caixa-bucar{
+    font-size: 15px;
+    width: 59%;
+    }
+}
+
+.caixa-bucar form input{
+    font-family: Calibri,Arial,sans-serif;
+    text-transform: uppercase;
+    width: 70%;
+    background-color: #efefec;
+    color: #afafae;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+}
+.caixa-bucar .btn_ok{
+    width: 40px;
+    padding: 0px;
+    height: 36px;
+    background-color: #d1d1d0;
+    color: #a1a1a1;
+    margin-left: -12px
+} 
+.btn_ok:hover{
+    background-color: #c3c3c2;
+}
+/************BLOCO LOGIN*********/
+
+.blo-login{
+    width: 20.33711340206186%;
+    height: 20px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+@media(max-width:680px){
+    .blo-login {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+.area-adm.conteudo{
+  width: 40.31530389821057;
+  
+  margin-top: 0px;
+  float: left;
+}
+.area-adm .conteudo{
+    
+    margin-top: 10px;
+    background: url("img/barra.png") no-repeat center left;
+    
+}
+.conteudo span{
+    background: url("img/barra.png") no-repeat center left;
+    color: #546771;
+}
+.form-login{
+    font-size: 15px;
+    width: 65%;
+    float: left;
+    font-size: 10px;
+}
+
+
+.form-login label {
+    display: none;
+}
+.login-username {
+    float: left;
+    width: 30%;
+
+}
+.login-username input{
+
+    font-family: Calibri,Arial,sans-serif;
+    text-transform: uppercase;
+    width: 67%;
+    background-color: #d9d9d9;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+    text-align: left;
+}
+
+.login-password{
+    float: left;
+    width: 30%;
+}
+.login-password input{
+
+    font-family: Calibri,Arial,sans-serif;
+    text-transform: uppercase;
+    width: 67%;
+    background-color: #d9d9d9;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+    text-align: left;
+}
+.login-submit{
+    float: left;
+    width: 30%;
+}
+.login-submit input[type=submit]{
+    background-color: #b8b8b8;
+    color: #ffffff;
+    height: 36px;
+    margin-left: -5px;
+    padding: 0px;
+    text-align: center;
+}
+.login-submit input{
+    font-family: Calibri,Arial,sans-serif;
+    text-transform: uppercase;
+    width: 74%;
+    background-color: #d9d9d9;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 36px;
+    text-align: left;
+}
+/************BLOCO REDES SOCIAIS*********/
+.blo-redesSociais{
+    float: left;
+    width: 20%;
+    height: 15px;
+    margin-top: 10px;
+}
+.Home_rede_sociais{
+    margin-top: 5px;
+    list-style: none;
+    transition: all 0.4s ease-out;
+}
+.Home_rede_sociais li{
+    width: 20%;
+    height: 10px;
+    float: left;
+    margin-right: 2px;
+
+}
+.efeito_Social:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+/*********************** MENU ***********************/
+
+/* MENU */
+/* MENU PRINCIPAL */
+.ConteinerMenu{
+    width: 100%;
+
+}
+
+.menuprincipal {
+
+    width: 100%;
+    float: left;
+    background-color: #4c606b;
+}
+.menuprincipal {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 20px 0 0 350;
+    border: 1px solid #4c606b;
+
+}
+.menuprincipal li {
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    padding-right: 50px;
+
+    height: 28px;
+
+}
+
+.menuprincipal li a {
+    font-family: Tahoma;
+    font-size: 11px;
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
+
+.menuprincipal li ul {
+
+    top: 28px;
+    left: -20px;
+    display: none;
+}
+
+
+.menuprincipal li:hover ul, .menu li ul li:hover ul, .menu lio.over ul, .menu li ul li.over ul {
+    display: block;  
+
+}
+.menuprincipal li ul li {
+    border:1px solid #4c606b;
+    display: block;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+}
